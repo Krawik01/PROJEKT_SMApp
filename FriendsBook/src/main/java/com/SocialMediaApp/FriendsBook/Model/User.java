@@ -22,6 +22,11 @@ public class User {
     private String username;
     private String password;
 
+<<<<<<< HEAD
+=======
+    private String email;
+
+>>>>>>> d43a775 (css added)
     @Override
     public String toString() {
         return "User{" +
