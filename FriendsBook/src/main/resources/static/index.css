@@ -1,0 +1,112 @@
+/*body {*/
+/*    background-color: rgba(178, 89, 252, 1);*/
+/*    background-image: radial-gradient(circle, rgba(178, 89, 252, 1) 8%, rgba(10, 26, 70, 1) 100%);*/
+/*}*/
+
+
+h1 {
+    position: absolute;
+    width: 480px;
+    height: 423px;
+    left: 1192px;
+    top: 301px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(49, 203, 166, 0.5);
+}
+
+.submitButton{
+    position: absolute;
+    width: 132px;
+    height: 37px;
+    left: 727px;
+    top: 540px;
+
+    background: #26D4DF;
+}
+.registerButton{
+    position: absolute;
+    width: 132px;
+    height: 37px;
+    left: 924px;
+    top: 540px;
+
+    background: #2AD1E8;
+}
+
+form{
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: 3.140em;
+}
+
+.passwordText{
+
+    position: absolute;
+    width: 277px;
+    height: 58px;
+    left: 439px;
+    top: 463px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 56px;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.loginText{
+    position: absolute;
+    width: 178px;
+    height: 58px;
+    left: 538px;
+    top: 370px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 56px;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.passwordBox{
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 329px;
+    height: 48px;
+    left: 727px;
+    top: 468px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usernameBox{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 329px;
+    height: 48px;
+    left: 727px;
+    top: 370px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

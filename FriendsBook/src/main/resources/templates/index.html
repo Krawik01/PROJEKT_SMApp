@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>FriendsBook</title>
+    <link rel="stylesheet" th:href="@{~/index.css}" />
+</head>
+<body>
+
+
+
+<h1>Friends Book</h1>
+<form action="users/LogIn" method="post">
+
+    <label class = loginText for="username">Login:</label> <br/>
+    <input class = usernameBox type="text" name="username"/> <br/>
+
+    <label class = passwordText for="password">Password:</label> <br/>
+    <input class = passwordBox type="password" name="password"/> <br/>
+
+    <button class = submitButton type="submit">Log In</button>
+</form>
+
+<form action="users/register" method="post">
+    <button class = registerButton type="submit">Register</button>
+</form>
+<br/>
+
+</body>
+</html>
